@@ -1,0 +1,17 @@
+<h4>{{titulo}}</h4>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Edad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let dato of datos">
+      <td>{{dato.nombre}}</td>
+      <td>{{dato.apellido}}</td>
+      <td>{{dato.edad}}</td>
+    </tr>
+  </tbody>
+</table>
